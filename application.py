@@ -15,6 +15,10 @@ standard_model=pickle.load(open('models/scaler.pkl','rb'))
 def index():
     return render_template('index.html')
 
+@app.route('/data_analysis')
+def data_analysis():
+    return render_template('data_analysis.html')
+
 @app.route('/predict',methods=['GET','POST'])
 def predict_datapoint():
     if request.method=='POST':
