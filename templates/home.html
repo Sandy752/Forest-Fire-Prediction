@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Predict</title>
 </head>
-<body>
-  <div class="login">
-    <h1>FWI Prediction</h1>
 
-     <!-- Main Input For Receiving Query to our ML -->
+<body style="margin: 25px;
+    background-color: beige;">
+  <div class="login">
+    <h1>Algerian Forest Fires</h1>
+
+    <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict_datapoint')}}" method="post">
-        <input type="text" name="ISI" placeholder="ISI" required="required" /><br>
-        <input type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+      <label style="margin-right: 27px;">ISI</label>
+      <input type="text" name="ISI" placeholder="0 to 18.5" required="required" /><br>
+      <label style="margin-right: 5px;">FFMC</label>
+      <input type="text" name="FFMC" placeholder="28.6 to 92.5" required="required" style="margin-top: 20px;" /><br>
+      <button type="submit" style="margin-top: 20px;
+      margin-left: 100px;
+      height: 41px;
+      width: 124px;
+      background-color: palegreen;
+      border: solid;
+      cursor: pointer;
+      border-color: teal;
+      border-width: 1.5px;
+      border-radius: 20px;">Predict</button>
     </form>
- <h2>
-   Not fire: 0 
-   Fire: 1
-   THE Class prediction is {{results}}
-    
-    
- </h2>
+  </div>
+  <div>
+    <h2>
+      Not fire: 0
+      Fire: 1
+      <p>The prediction is {{results}}</p>
+
+    </h2>
+  </div>
+  <div style="background-color: aquamarine; line-height: 22px; padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-right: 5px;">
+    <h2>Dataset Information</h2>
+    The dataset includes 244 instances that regroup a data of two regions of Algeria,namely the Bejaia region located in
+    the northeast of Algeria and the Sidi Bel-abbes region located in the northwest of Algeria.
+    122 instances for each region.
+    The period from June 2012 to September 2012.
+    The dataset includes 11 attribues and 1 output attribue (class)
+    The 244 instances have been classified into fire (138 classes) and not fire (106 classes) classes.
+  </div>
+  <div style="background-color: bisque; height: 150px; padding-left: 12px; padding-top: 12px; margin-top: 10px;">
+    <h2>Variable Information</h2>
+    <p>Initial Spread Index (ISI) index from the FWI system: 0 to 18.5 </p>
+    <p>Fine Fuel Moisture Code (FFMC) index from the FWI system: 28.6 to 92.5</p>
+  </div>
+  <div style="background-color: azure;
+  display: grid;
+  justify-content: space-evenly;
+  align-items: baseline;
+  justify-items: center;
+  margin-top: 10px;">
+    <h2>About the Model</h2>
+    <div style="line-height: 10px;">
+      <p><b>Model selected :</b> Logistic Regression</p>
+      <p><b>Accuracy :</b> 0.98360</p>
+      <p><b>Confustion metrix :</b></p>
+      <p>[[24  0]</p>
+      <p>[ 1 36]]</p>
+    </div>
+  </div>
 </body>
+
 </html>
