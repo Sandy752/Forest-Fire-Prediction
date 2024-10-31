@@ -6,7 +6,7 @@
 
 # Algerian forest fires project
 
-Website -(http://forest-fire-prediction-env.eba-hb3a34jp.ap-south-1.elasticbeanstalk.com/predict)
+Website - http://forest-fire-prediction-env.eba-hb3a34jp.ap-south-1.elasticbeanstalk.com/predict
 ## Table of contents
 * [Dataset Preview](#dataset-preview)
 * [Demo](#demo)   
