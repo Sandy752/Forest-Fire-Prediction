@@ -50,6 +50,8 @@ A preview of top five rows.
 ![Seaborn](https://img.shields.io/badge/Seaborn-30B5E3?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![AWS Elastic Beanstalk](https://img.shields.io/badge/AWS%20Elastic%20Beanstalk-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS Pipeline](https://img.shields.io/badge/AWS%20Pipeline-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 
 <h3>Algorithms Used<h3><a id="5"></a>
