@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 * Execute the command:
 ``` bash
-  python3 app.py
+  python3 application.py
 ```
 
 * Open ```http://127.0.0.1:5000/``` in your browser.
