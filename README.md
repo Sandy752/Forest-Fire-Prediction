@@ -1,7 +1,3 @@
-Algerian forest fires project
-
-
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/Sandy752/Forest-Fire-Prediction?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Sandy752/Forest-Fire-Prediction?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/Sandy752/Forest-Fire-Prediction?style=for-the-badge)
@@ -10,6 +6,7 @@ Algerian forest fires project
 
 # Algerian forest fires project
 
+Website -(http://forest-fire-prediction-env.eba-hb3a34jp.ap-south-1.elasticbeanstalk.com/predict)
 ## Table of contents
 * [Dataset Preview](#dataset-preview)
 * [Demo](#demo)   
@@ -34,9 +31,6 @@ A preview of top five rows.
 | 5   | 6     | 2012 | 27          | 77 | 16 | 0.0  | 64.8 | 3.0 | 14.2| 1.2 | 3.9 | 0.5 | not fire | 0      |
 
 
-## Demo
-
-[LINK](http://forest-fire-prediction-env.eba-hb3a34jp.ap-south-1.elasticbeanstalk.com/predict)
 
 <h3>Tools Used </h3><a id="3"></a>
 
