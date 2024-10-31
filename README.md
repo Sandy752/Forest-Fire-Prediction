@@ -8,8 +8,7 @@
 
 Website - http://forest-fire-prediction-env.eba-hb3a34jp.ap-south-1.elasticbeanstalk.com/predict
 ## Table of contents
-* [Dataset Preview](#dataset-preview)
-* [Demo](#demo)   
+* [Dataset Preview](#dataset-preview)   
 * [Tools Used](#3)
 * [Libraries](#4)
 * [Algorithms Used](#5)
